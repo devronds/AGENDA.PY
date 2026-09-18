@@ -69,7 +69,6 @@ while True:
         num_c = input("DIGITE O NÚMERO DO CONTATO: ")
         email_c = input("DIGITE O EMAIL DO CONTATO: ")
         add_contato(contatos, nome_c, num_c, email_c)
-        print(contatos)
     elif i_opcao == "2":
         view_contatos(contatos)
     elif i_opcao == "3":
